@@ -1,30 +1,15 @@
-from pyexpat import XML_PARAM_ENTITY_PARSING_ALWAYS
 from matplotlib.pyplot import close
 import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
 import streamlit as st
 import pandas as pd
-import numpy as np
 import yfinance as yf
 from datetime import datetime
 import plotly
 import plotly.graph_objects as go
 from pandas_datareader import data as wb
 import requests
-import hvplot.pandas
 import base64
 from pandas.tseries.offsets import DateOffset
-
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import LSTM
-from keras.layers import Dropout
-
-from sklearn.preprocessing import StandardScaler
-from sklearn import svm
-from sklearn.metrics import classification_report, plot_precision_recall_curve
-
 
 
 st.title("""Predicting Price""")
