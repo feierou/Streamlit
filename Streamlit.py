@@ -12,7 +12,7 @@ import base64
 from pandas.tseries.offsets import DateOffset
 
 
-st.title("""Predicting Price""")
+st.title("""Stock Picker""")
 st.markdown("Our project is to select stocks and sectors and predict future prices by using SVM model and LSTM model")
 
 
